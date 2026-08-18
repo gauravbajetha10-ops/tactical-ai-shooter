@@ -22,31 +22,3 @@ To run this game locally on your machine, you will need Python 3 and the Pygame 
    ```bash
    git clone [https://github.com/gauravbajetha10-ops/tactical-ai-shooter.git](https://github.com/gauravbajetha10-ops/tactical-ai-shooter.git)
    cd tactical-ai-shooter
-Install the required dependencies:
-pip install pygame
-Run the game:
-python main.py
-🎮 Controls
-Action           Keybinding
-Move              W, A, S, D
-Aim/Shoot         Mouse/Left Click
-Reload            R
-Pause             P
-Toggle Fullscreen F
-Menu Confirm      ENTER or SPACE
-Quit Game         ESC
-
-
-
-📁 Project Structure
-main.py: The core game loop, event handling, and UI rendering.
-player.py: Manages player input, collision resolution, weapons, and auto-healing.
-enemy.py: Contains the AI bot logic, FSM state updates, and tracking math.
-bullet.py: Calculates geometric trajectories (angles/velocities) for projectiles.
-wall.py: Generates static environmental hitboxes.
-levels.py: Stores the coordinate arrays to procedurally build each of the 5 arenas.
-settings.py: Centralized configuration for game variables, colors, and resolution.
-
-
-👤 Author
-Developed by Gaurav Bajetha/gauravbajetha10-ops as an exploration of Python game development and Artificial Intelligence logic.
